@@ -20,8 +20,13 @@
       </li>
       {{ end }}
       <li class="mr-4 inline-block">
-        <i class="fa-regular fa-clock mr-2"></i>
+        <i class="fa-regular fa-calendar-days mr-2"></i>
         {{ time.Format ":date_long" .PublishDate }}
+      </li>
+      {{ $min:= .Params.min }}
+      <li class="mr-4 inline-block"></li>
+        <i class="fa-regular fa-clock mr-2"></i>
+        {{ $min }} min read
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>

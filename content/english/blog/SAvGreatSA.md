@@ -3,6 +3,7 @@ title: "SA vs Great SA"
 meta_title: ""
 description: "What does it take to be a Great SA? The primary differentiator between a good Solution Architect (SA) and a great one lies in their critical thinking ability. Critical thinking involves evaluating information from multiple perspectives, questioning assumptions, and drawing reasoned conclusions. It empowers SAs to think more deeply, make thoughtful choices, and develop a greater understanding of the problem domain. Great SAs leverage critical thinking to balance competing leadership principles, proactively identify and address potential challenges, risks, and opportunities, design scalable, resilient, and secure solutions that anticipate future needs, and effectively communicate technical concepts to both technical and non-technical stakeholders. By applying critical thinking, great SAs can dive deeper, analyze complex problems from multiple angles, propose innovative solutions, stay up-to-date with industry trends, collaborate effectively, and continuously optimize and enhance their solutions, ultimately delivering greater value to the organization."
 date: 2024-07-19T05:00:00Z
+min: 9 
 image: "/images/banners/great-sa.png"
 categories: ["AWS Solution Architect"]
 author: 

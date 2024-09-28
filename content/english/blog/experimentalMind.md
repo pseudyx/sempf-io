@@ -3,6 +3,7 @@ title: "Experimental Mindset"
 meta_title: "Experimental Mindset"
 description: "Why should Solutions Architects embrace an experimental mindset in their work? In a rapidly evolving industry, the ability to run controlled experiments, test hypotheses, iterate quickly based on data, and pivot approaches allows for faster learning, more innovative solutions, and continuous improvement. In this article we provide a structured framework for setting up experiments, knowing when to persevere or change course, and turning seemingly irreversible one-way decisions into low-risk iterative steps. Cultivating curiosity, challenging assumptions, and valuing learning over just being right are critical mindsets for driving meaningful progress and unlocking new possibilities. With examples and wisdom from Amazon leaders, we call for using an experimental approach to navigate ambiguity, make better decisions, and stay ahead of the curve."
 date: 2024-09-27T05:00:00Z
+min: 15
 image: "/images/banners/experimental-mind.png"
 categories: ["AWS Solution Architect"]
 author: ""

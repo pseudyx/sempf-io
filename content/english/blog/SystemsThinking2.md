@@ -3,6 +3,7 @@ title: "Systems Thinking Part 2: Infinity"
 meta_title: ""
 description: "Continuing our exploration through the mental construct of Systems Thinking, we have looked at the intrinsic interconnectivity of all elements within a system and discussed the nature of feedback loops as the driving force behind emergent behaviors and unintended consequences. In this part 2 of Systems Thinking we discuss the significance of systems boundaries, the importance of recognizing and defining the boundaries in order to understand its scope, scale, and interactions with its environment, and we introduce the \"infinite mindset\" a concept that emphasizes the importance of adapting, evolving, and thriving in an ever-changing environment, rather than focusing solely on achieving specific short-term goals."
 date: 2024-08-30T05:00:00Z
+min: 15
 image: "/images/banners/system-thinking.png"
 categories: ["AWS Solution Architect", "Systems Design"]
 author: 

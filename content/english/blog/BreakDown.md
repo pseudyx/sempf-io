@@ -3,6 +3,7 @@ title: "Breaking it down"
 meta_title: ""
 description: "In this edition, we dive into the art of breaking down complex problems into manageable domains, empowering us to design solutions that truly address the needs of our partners and customers. We explore the power of concepts like Separation of Concerns and Bounded Contexts and how they provide a powerful toolkit for effective systems design. Discover how these principles, combined with architectural patterns, modularity, and abstraction, enable us to create adaptable, maintainable, and scalable solutions. We take a look at practical strategies to help navigate the complexities of solution design. Embrace a mindset of continuous learning, collaboration, and iterative refinement as we unlock new levels of innovation and problem-solving prowess."
 date: 2024-09-13T05:00:00Z
+min: 25
 image: "/images/banners/break-down.png"
 categories: ["AWS Solution Architect", "Systems Design"]
 author: 

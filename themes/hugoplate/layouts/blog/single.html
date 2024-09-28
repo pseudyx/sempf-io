@@ -13,13 +13,16 @@
             {{ .Title }}
           </h1>
           <ul class="mb-4">
+            {{ $author:= .Params.author }}
+            {{ if $author }}
             <li class="mr-4 inline-block">
               <a
                 href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
                 <i class="fa-regular fa-circle-user mr-2"></i
-                >{{ .Params.author }}
+                >{{ $author }}
               </a>
             </li>
+            {{ end }}
             {{ $categories:= .Params.categories }}
             {{ if $categories }}
               <li class="mr-4 inline-block">
@@ -36,8 +39,13 @@
               </li>
             {{ end }}
             <li class="mr-4 inline-block">
-              <i class="fa-regular fa-clock mr-2"></i>
+              <i class="fa-regular fa-calendar-days mr-2"></i>
               {{ time.Format ":date_long" .PublishDate }}
+            </li>
+            {{ $min:= .Params.min }}
+            <li class="mr-4 inline-block"></li>
+              <i class="fa-regular fa-clock mr-2"></i>
+              {{ $min }} min read
             </li>
           </ul>
           <div class="content mb-10">
