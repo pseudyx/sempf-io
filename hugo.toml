@@ -45,6 +45,10 @@ source = "assets"
 target = "assets"
 
 [[module.mounts]]
+source = "images"
+target = "static/images"
+
+[[module.mounts]]
 source = "hugo_stats.json"
 target = "assets/watching/hugo_stats.json"
 
