@@ -28,7 +28,7 @@ These two definitions provide two very different perspectives on systems, the fi
 
 In computer science, systems theory defines a system as having causal boundaries, being influenced by its context, defined by its structure, function and role, and expressed through its relationships with other systems.
 
-A system is a group of interconnected or interrelated elements (//causal boundaries//) governed by a set of rules (//context and role//) that guide how each element acts and interacts (//function and role//) as a unified whole (//structure//).
+A system is a group of interconnected or interrelated elements (_causal boundaries_) governed by a set of rules (_context and role_) that guide how each element acts and interacts (_function and role_) as a unified whole (_structure_).
 
 ## Characteristics of a System 
 
