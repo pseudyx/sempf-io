@@ -1,6 +1,6 @@
 ---
 title: "Systems Thinking Part 1: Interconnectivity"
-meta_title: ""
+meta_title: "Systems Thinking: Interconnectivity"
 description: "In this edition we delve into the profound concept of systems thinking, a holistic approach that empowers us to perceive the world through the lens of interconnectivity. By embracing this paradigm, we transcend the limitations of traditional problem-solving methods and gain the ability to unravel the intricate web of relationships and feedback loops that govern complex systems. In this article we guide you through a captivating exploration of causal loop diagrams, behaviour over time analysis, and the recognition of common system archetypes, revealing how these tools can unlock invaluable insights for crafting optimized, resilient, and sustainable solutions. With compelling examples and a thought experiment that illustrates the power of systems thinking in action, learn about how systems thinking challenges us to embrace a philosophical shift in our approach to solution architecture."
 date: 2024-08-16T05:00:00Z
 min: 20
@@ -9,6 +9,7 @@ categories: ["AWS Solution Architect", "Systems Design"]
 author: 
 tags: ["systems", "mindset", "philosophy"]
 draft: false
+source: "AWS Internal Wiki - TGIF Fortnightly"
 ---
 
 ## Breadth and Depth
