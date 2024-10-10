@@ -9,7 +9,7 @@ categories: ["AWS Solution Architect", "Systems Design"]
 author: 
 tags: ["systems", "mindset", "philosophy"]
 draft: false
-source: "AWS Internal Wiki - TGIF Fortnightly"
+source: "AWS Internal Wiki"
 ---
 
 In [part 1](/blog/systemsthinking1/), we delved into the concept of systems thinking, emphasizing the intrinsic interconnectivity of all elements within a system. Central to this understanding is the recognition of feedback loops as the driving force behind emergent behaviors and unintended consequences. As we continue to navigate the complexities of systems thinking in solution architecture, it becomes increasingly evident that while interconnectivity is a fundamental principle, we must also acknowledge the existence and significance of boundaries within systems. Just as the interplay of components shapes system behavior, the delineation of boundaries plays a crucial role in defining the scope, scale, and interactions of a system with its environment.
