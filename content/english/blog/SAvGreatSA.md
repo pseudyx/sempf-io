@@ -1,6 +1,6 @@
 ---
 title: "SA vs Great SA"
-meta_title: ""
+meta_title: "What does it take to be a Great SA"
 description: "What does it take to be a Great SA? The primary differentiator between a good Solution Architect (SA) and a great one lies in their critical thinking ability. Critical thinking involves evaluating information from multiple perspectives, questioning assumptions, and drawing reasoned conclusions. It empowers SAs to think more deeply, make thoughtful choices, and develop a greater understanding of the problem domain. Great SAs leverage critical thinking to balance competing leadership principles, proactively identify and address potential challenges, risks, and opportunities, design scalable, resilient, and secure solutions that anticipate future needs, and effectively communicate technical concepts to both technical and non-technical stakeholders. By applying critical thinking, great SAs can dive deeper, analyze complex problems from multiple angles, propose innovative solutions, stay up-to-date with industry trends, collaborate effectively, and continuously optimize and enhance their solutions, ultimately delivering greater value to the organization."
 date: 2024-07-19T05:00:00Z
 min: 9 
@@ -9,6 +9,7 @@ categories: ["AWS Solution Architect"]
 author: 
 tags: ["technology", "mindset"]
 draft: false
+source: "AWS Internal Wiki - TGIF Fortnightly"
 ---
 
 ## What does it take? 
@@ -27,7 +28,7 @@ Critical thinking is a broad and open-ended process of evaluating information fr
 
 Most people confuse problem solving and critical thinking - the key is in understanding the differences and how to apply them together. Problem solving is a more focused process of identifying a specific issue, analyzing it, and implementing a solution. It follows a structured, step-by-step method to address a well-defined problem. The purpose of problem solving is to find the best solution to a particular challenge. Critical thinking is a fundamental skill for effective problem-solving. When looking at the difference between an SA and a "great" SA, we might presume that an SA is more of a problem solver, following step-by-step methods for well defined problems, and a "great" SA is more of a critical thinker, applying problem solving with a more open-minded process of evaluation to draw well reasoned conclusions.
 
-Critical thinking lies at the heart of being a good Amazonian. You’re here, so you’ve obviously demonstrated some level of critical thinking. But "great" SAs leverage their critical thinking to understand how and when to balance competing Leadership Principles (LPs) - for example, balancing Bias for Action with Dive Deep. When is it good to pursue one vs. the other, is there a tipping point at which you have enough knowledge to act, and are these even the right questions? The core of this comes down to two questions: "why" and "so what". The "why" question gets back to the Learn and Be Curious LP, where you seek to understand and clarify the context or situation, the problem statement, and potential solutions and their consequences. "So what" is a more complex question, seeking to understand the second or even third level effects of your actions. It can also sometimes be referred to as: "why should/did you do that". As busy professionals, time is often our most valuable asset. Understanding the "why" allows us to ensure we are choosing the right activities to work on and the "so what" allows us to understand how to prioritize seemingly similar activities. Think about the last time someone asked you to do something - "why" should you have done it (or not) and what was the "so what" of doing said activity? Was it still worthwhile doing? Or by doing this activity, did you inadvertently say "no" to all the other activities you could have been doing with that time?
+Critical thinking lies at the heart of being a good Amazonian. Part of the Amazon hiring process ("The Loop") focuses on the Amazon Leadership Principles (LP), and the cadidates ability to think critically, to discuss how they embody the LPs. But "great" SAs leverage their critical thinking to understand how and when to balance competing LPs - for example, balancing Bias for Action with Dive Deep. When is it good to pursue one vs. the other, is there a tipping point at which you have enough knowledge to act, and are these even the right questions? The core of this comes down to two questions: "why" and "so what". The "why" question gets back to the Learn and Be Curious LP, where you seek to understand and clarify the context or situation, the problem statement, and potential solutions and their consequences. "So what" is a more complex question, seeking to understand the second or even third level effects of your actions. It can also sometimes be referred to as: "why should/did you do that". As busy professionals, time is often our most valuable asset. Understanding the "why" allows us to ensure we are choosing the right activities to work on and the "so what" allows us to understand how to prioritize seemingly similar activities. Think about the last time someone asked you to do something - "why" should you have done it (or not) and what was the "so what" of doing said activity? Was it still worthwhile doing? Or by doing this activity, did you inadvertently say "no" to all the other activities you could have been doing with that time?
 
 So what does this difference look like in the practical workings of being an SA vs a "great" SA?
 
@@ -61,5 +62,3 @@ In summary, the "great" SA uses critical thinking to get to a deeper level of un
 * [**Think Again**](https://www.amazon.com/Think-Again-Power-Knowing-What-ebook/dp/B08H177WQP/) - Adam Grant
 
 * [**Eisenhower Matrix**](https://sps.columbia.edu/sites/default/files/2023-08/Eisenhower%20Matrix.pdf) - prioritization framework
-
-
