@@ -53,7 +53,7 @@ The Gartner Hype Cycle, a widely recognized tool, provides a framework for under
 
 And not officially part of the Gartner Hype Cycle, but for technologies that don’t make it past the slop of enlightenment into the plateau of productivity, is the ‘Trench of temporary hypes’ - This is where tech goes to slowly phase out, due to an understanding of the techs capabilities and applications not providing the desired outcomes or productivity required to take advantage of the technology.
 
-[graph of hype cycle]
+![graph of hype cycle](/images/07-hype-trend.png)
 
 ## GenAI and the Hype Cycle 
 
