@@ -9,7 +9,7 @@ categories: ["AWS Solution Architect", "Systems Design"]
 author: 
 tags: ["systems", "design", "patterns", "domain driven", "architecture", "seperation of concern", "bounded context"]
 draft: false
-source: "AWS Internal Wiki - TGIF Fortnightly"
+source: "AWS Internal Wiki"
 ---
 
 So far, our discussions have focused on critical thinking - understanding the reasons ("why") and implications ("so what") that help examine phenomena within a problem domain. By exploring Systems Thinking, we can understand these phenomena as interconnected components of a larger system. Defining the system's boundaries reveals that the phenomena have upstream effects on downstream, interrelated systems, which can exhibit unexpected ("emergent") behaviors. Effectively, the whole system is greater than the sum of its parts.
