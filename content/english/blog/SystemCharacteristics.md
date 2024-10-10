@@ -1,6 +1,6 @@
 ---
 title: "Systems: Definitions and Observations"
-meta_title: ""
+meta_title: "Systems archetypes"
 description: "An introduction to the characteristics of systems. This post does not attempt to cover the foundations of systems theory in computer science."
 date: 2024-08-16T05:00:00Z
 min: 40
