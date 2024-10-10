@@ -7,7 +7,7 @@ min: 10
 image: "/images/banners/genai-there.png"
 categories: ["AWS Solution Architect"]
 author: 
-tags: ["GenAI", "Artificial Inteligence", "hype", "trend", "mindset"]
+tags: ["GenAI", "hype", "trend", "mindset"]
 draft: false
 source: "AWS Internal Wiki"
 ---
