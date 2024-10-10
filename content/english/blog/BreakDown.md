@@ -1,6 +1,6 @@
 ---
 title: "Breaking it down"
-meta_title: ""
+meta_title: "Breaking down complex problems"
 description: "In this edition, we dive into the art of breaking down complex problems into manageable domains, empowering us to design solutions that truly address the needs of our partners and customers. We explore the power of concepts like Separation of Concerns and Bounded Contexts and how they provide a powerful toolkit for effective systems design. Discover how these principles, combined with architectural patterns, modularity, and abstraction, enable us to create adaptable, maintainable, and scalable solutions. We take a look at practical strategies to help navigate the complexities of solution design. Embrace a mindset of continuous learning, collaboration, and iterative refinement as we unlock new levels of innovation and problem-solving prowess."
 date: 2024-09-13T05:00:00Z
 min: 25
@@ -9,6 +9,7 @@ categories: ["AWS Solution Architect", "Systems Design"]
 author: 
 tags: ["systems", "design", "patterns", "domain driven", "architecture", "seperation of concern", "bounded context"]
 draft: false
+source: "AWS Internal Wiki - TGIF Fortnightly"
 ---
 
 So far, our discussions have focused on critical thinking - understanding the reasons ("why") and implications ("so what") that help examine phenomena within a problem domain. By exploring Systems Thinking, we can understand these phenomena as interconnected components of a larger system. Defining the system's boundaries reveals that the phenomena have upstream effects on downstream, interrelated systems, which can exhibit unexpected ("emergent") behaviors. Effectively, the whole system is greater than the sum of its parts.
