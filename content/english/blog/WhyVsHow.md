@@ -9,7 +9,7 @@ categories: ["AWS Solution Architect"]
 author: 
 tags: ["mindset", "analysis"]
 draft: false
-source: "AWS Internal Wiki - TGIF Fortnightly"
+source: "AWS Internal Wiki"
 ---
 
 In the [last article](/blog/savgreatsa/), we discussed that the very heart of being a great Solution Architect (SA) lies in the ability to apply critical thinking skills effectively. The core of critical thinking comes down to two questions: "why" and "so what".
