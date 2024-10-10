@@ -9,7 +9,7 @@ categories: ["AWS Solution Architect", "Systems Design"]
 author: 
 tags: ["systems", "mindset", "philosophy"]
 draft: false
-source: "AWS Internal Wiki - TGIF Fortnightly"
+source: "AWS Internal Wiki"
 ---
 
 ## Breadth and Depth
