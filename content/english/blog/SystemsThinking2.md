@@ -1,6 +1,6 @@
 ---
 title: "Systems Thinking Part 2: Infinity"
-meta_title: ""
+meta_title: "Systems Thinking: Feedback loops and evolution"
 description: "Continuing our exploration through the mental construct of Systems Thinking, we have looked at the intrinsic interconnectivity of all elements within a system and discussed the nature of feedback loops as the driving force behind emergent behaviors and unintended consequences. In this part 2 of Systems Thinking we discuss the significance of systems boundaries, the importance of recognizing and defining the boundaries in order to understand its scope, scale, and interactions with its environment, and we introduce the \"infinite mindset\" a concept that emphasizes the importance of adapting, evolving, and thriving in an ever-changing environment, rather than focusing solely on achieving specific short-term goals."
 date: 2024-08-30T05:00:00Z
 min: 15
@@ -9,6 +9,7 @@ categories: ["AWS Solution Architect", "Systems Design"]
 author: 
 tags: ["systems", "mindset", "philosophy"]
 draft: false
+source: "AWS Internal Wiki - TGIF Fortnightly"
 ---
 
 In [part 1](/blog/systemsthinking1/), we delved into the concept of systems thinking, emphasizing the intrinsic interconnectivity of all elements within a system. Central to this understanding is the recognition of feedback loops as the driving force behind emergent behaviors and unintended consequences. As we continue to navigate the complexities of systems thinking in solution architecture, it becomes increasingly evident that while interconnectivity is a fundamental principle, we must also acknowledge the existence and significance of boundaries within systems. Just as the interplay of components shapes system behavior, the delineation of boundaries plays a crucial role in defining the scope, scale, and interactions of a system with its environment.
