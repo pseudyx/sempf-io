@@ -9,7 +9,7 @@ categories: ["AWS Solution Architect"]
 author: 
 tags: ["technology", "mindset"]
 draft: false
-source: "AWS Internal Wiki - TGIF Fortnightly"
+source: "AWS Internal Wiki"
 ---
 
 ## What does it take? 
