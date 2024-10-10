@@ -43,16 +43,16 @@
               {{ time.Format ":date_long" .PublishDate }}
             </li>
             {{ $min:= .Params.min }}
-            <li class="mr-4 inline-block"></li>
+            <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>
               {{ $min }} min read
             </li>
           </ul>
           {{ $source:= .Params.source }}
           {{ if $source }}
-          <div class="row justify-left"></div>
-            Originally posted: {{ $source }}  
-          </div>
+          <ul class="row mb-4">
+            <li>Original: {{ $source }}</li>  
+          </ul>
           {{ end }}
           <div class="content mb-10">
             {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
