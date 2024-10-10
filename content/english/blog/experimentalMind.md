@@ -9,6 +9,7 @@ categories: ["AWS Solution Architect"]
 author: ""
 tags: ["philosophy", "mindset", "experiment"]
 draft: false
+source: "AWS Internal Wiki - TGIF Fortnightly"
 ---
 
 In previous articles, we covered the philosophy of Systems Thinking, both broadening and narrowing our aperture to understand how to look at feedback loops and boundaries. But how do we apply this to our job as a Solutions Architect? We believe the answer lies in the combination of knowing where to define the boundaries and embracing an experimental mindset.
@@ -111,6 +112,3 @@ After all, experimentation isn’t about being right. It’s about finding out w
 1. What would I do if I wasn’t scared?
 1. What evidence is there that my skills are cutting edge?
 1. (Add here if you know better ones)
-
-
-
