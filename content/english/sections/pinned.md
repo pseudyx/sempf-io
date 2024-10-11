@@ -11,7 +11,7 @@ pinned:
     button:
       enable: true
       label: "Read full article"
-      link: "/blog/GenAIareWeThereYet/"
+      link: "/blog/genaiarewethereyet/"
       
 # don't create a separate page
 _build:
