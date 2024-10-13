@@ -1,6 +1,6 @@
 ---
 title: "Why vs How"
-meta_title: "Understanding the underlying reasons"
+meta_title: "Why vs How"
 description: "The ability to ask \"why\" and \"so what\" emerges as a cornerstone of effective critical thinking and fosters innovation in providing comprehensive value as a trusted advisor. Understanding the underlying reasons (\"why\") behind business requirements, problems, or tasks is crucial for effective problem-solving, decision-making, and designing meaningful solutions. By employing techniques like the \"5 Whys\" analysis and digging deeper into the root causes, one can uncover hidden assumptions, interconnected issues, and develop more sustainable solutions that truly address underlying business needs. Furthermore, considering broader implications through the lens of \"so what\" allows architects to take a holistic, systems-level view, ensuring that practical implementations align with deeper motivations and long-term consequences. This approach not only fosters introspection, analysis, and continuous learning but also enhances personal growth and goal-setting. SAs should challenge the status quo, question assumptions, and seek a profound understanding of the \"why\" and \"so what\" behind tasks, processes, and goals, as it enables well-informed decision-making and the delivery of thoughtful, sustainable solutions that provide comprehensive value."
 date: 2024-08-02T05:00:00Z
 min: 25
