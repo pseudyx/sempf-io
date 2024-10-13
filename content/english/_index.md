@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Musings of a Technologist"
-  content: "After decades of learning ways to apply my strengths and overcome my difficulties as a neurodivergent (ASD and ADHD) in tech, with seemingly contradicting issues of hyper attention/focus (obsessive) and hyperactive-impulsive attention deficit, building a depth and breadth across diverse technology domains, sometimes the only way to stop my brain from spinning out of control over multiple threads all at once is to focus it into writing down my thoughts on a single thread... This blog is that outlet"
+  content: "We, the willing, led by the unsatisfied, doing the impossible for the unknowing. We have done so much, for so long, with so little, we are now qualified to do anything with nothing."
   image: ""
   button:
     enable: false
