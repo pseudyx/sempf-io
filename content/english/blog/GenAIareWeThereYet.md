@@ -1,6 +1,6 @@
 ---
 title: "GenAI... Are we there yet?"
-meta_title: "GenAI separating Hype from Trend"
+meta_title: "GenAI... Are we there yet?"
 description: "The rise of Generative AI (GenAI) has ignited a frenzy of excitement and hype, captivating the tech world with its remarkable capabilities in generating human-like text, images, code, and more. As Solutions Architects, our pivotal role lies in navigating this landscape with a discerning eye, separating the transient hype from the enduring trends. By adopting a problem-centric mindset, staying abreast of technical advancements, and addressing concerns around sustainability, reliability, and ethics, we can harness the power of GenAI to create scalable, impactful solutions that outlive the hype cycles and contribute to sustainable progress across industries and societies."
 date: 2024-10-11T00:00:00Z
 min: 10
