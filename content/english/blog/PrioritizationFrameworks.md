@@ -63,7 +63,7 @@ This framework is an interesting way to consider what tasks are valuable and why
 6. **Value vs. Effort matrix**
 The value vs effort framework is commonly used in product/software development and directly measures the value of the task by the amount of effort to achieve the task, in essence: "is the juice worth the squeeze?". This framework helps to identify business value taks have. While some may seem essential, they may consume a lot of time and resources without promising much return on inventment. Finding a balance between value and effort can be pivotal.
 
-![Value vs. Effort](/images/08-value-effort.png)
+![Value vs. Effort](/images/08-effort-value.png)
 
 7. **Cynefin Framework**
 Ready to go into Expert mode with navigating complexity? Not all problems can be neatly prioritized by effort and impact alone. Some require understanding the nature of the problem itself before even thinking about solutions. The Cynefin framework is a tool for navigating complexity by categorizing problems into different domains: 1/ simple, 2/ complicated, 3/ complex, and 4/ chaotic. Customer wants to build a basic AWS setup? Simple, because there's little uncertainty here. Customer struggling with high cloud costs and wants help? Complicated, because it requires expert analysis to solve. Customer wants to migrate from monolith to microservices? Complex, because the outcome is unpredictable (use feedback loops to optimize). Customer's e-commerce platform is down? Chaotic, and requires fast action before analysis (dig into root causes and apply a more methodical framework like **RICE** for longer-term fixes).
