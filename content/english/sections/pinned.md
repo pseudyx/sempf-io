@@ -1,17 +1,17 @@
 ---
 enable: true
 title: "Latest Article"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+description: ""
 
 # pinned articles
 pinned:
-  - title: "GenAI... Are we there yet?"
-    image: "/images/banners/genai-there.png"
-    content: "The rise of Generative AI (GenAI) has ignited a frenzy of excitement and hype, captivating the tech world with its remarkable capabilities in generating human-like text, images, code, and more. As Solutions Architects, our pivotal role lies in navigating this landscape with a discerning eye, separating the transient hype from the enduring trends. By adopting a problem-centric mindset, staying abreast of technical advancements, and addressing concerns around sustainability, reliability, and ethics, we can harness the power of GenAI to create scalable, impactful solutions that outlive the hype cycles and contribute to sustainable progress across industries and societies."
+  - title: "Prioritization Frameworks"
+    image: "/images/banners/prioritization.png"
+    content: "In this post, we take a step to the side and look at prioritization techniques for IT professionals, particularly for us as Solutions Architects, who face an overwhelming array of tasks and responsibilities in our daily work. Gain insights into various prioritization frameworks, which can help you navigate the complex technology landscape more effectively. Not only do we explain these frameworks, we provide a real-world example of how to create a hybrid model tailored to individual needs. By understanding and implementing these strategies, SAs can enhance their productivity, make better decisions, and achieve a balance between short-term tasks and long-term goals. Moreover, we emphasize the importance of adaptability and continuous refinement in prioritization skills, making it an essential read for any SA looking to optimize their workflow and deliver high-value outcomes in our fast-paced world of IT and cloud solution development."
     button:
       enable: true
       label: "Read full article"
-      link: "/blog/genaiarewethereyet/"
+      link: "/blog/prioritizationframeworks/"
       
 # don't create a separate page
 _build:
