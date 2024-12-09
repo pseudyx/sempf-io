@@ -11,7 +11,7 @@ pinned:
     button:
       enable: true
       label: "Read full article"
-      link: "/blog/ToCodeOrNot/"
+      link: "/blog/tocodeornot/"
       
 # don't create a separate page
 _build:
