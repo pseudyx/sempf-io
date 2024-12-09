@@ -96,11 +96,9 @@ Firstly, just because you built a prototype, doesn’t mean that your end-goal i
 
 > Invent and Simplify: Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.” As we do new things, we accept that we may be misunderstood for long periods of time.
 
-This is how we provide the immediate value of our exploration of coding, without being thwarted by potential security and legal concerns around sharing the code. But ok, you've provided your thought leadership, and the customer/partner is intent on reviewing your code to help them learn. You have many options for sharing (based on 1:1 or 1:Many), but ultimately every pathway to sharing leads to requiring an automated review and a Content Security Review (CSR) by a Security Guardian, as code (not to be confused with sample commands, shell scripts, or functions that only perform read operations) is a minimum of medium risk. 
+This is how we provide the immediate value of our exploration of coding, without being thwarted by potential security and legal concerns around sharing the code. But ok, you've provided your thought leadership, and the customer/partner is intent on reviewing your code to help them learn. You have many options for sharing (based on 1:1 or 1:Many), but ultimately every pathway to sharing leads to requiring a Security Review, as code (not to be confused with sample commands, shell scripts, or functions that only perform read operations) is a minimum of medium risk. 
 
-Once your code has been reviewed and approved, you are free to provide the code through the available options, some of which are: for 1:1 the content portal or for 1:Many through AWS-Samples or even guided workshops.
-
-HINT: Follow Pythia for guidance. CSRs can take on average between 1 and 3 weeks for approval, so if you plan to share your code, then submit the review ticket as soon as you have created the code. But this is also why it's important to recognise that the true 'value' of code both for the SA and the customer/partner doesn't come from sharing the code itself, but from providing the learning and Thought Leadership as a result of the code.
+Once your code has been reviewed and approved, you are free to provide the code through the available options.
 
 ### PoC or Prototype Code sharing is the objective
 
