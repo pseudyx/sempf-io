@@ -74,7 +74,7 @@ If you’re new to coding or looking to refresh your skills, here are practical 
 
    Regularly explore new AWS service announcements and try to implement them in small projects. This keeps your skills current and relevant.
 
-Historically, this is what we would have suggested as a minimum to get started, but now as a result of GenAI capabilities, it has become even easier to get started with coding, with tools like Amazon Q Developer (Q Dev). Get yourself set up with Q Dev from the internal builders hub documentation then follow the steps above, using Q Dev to ask questions on what and how to integrate with AWS services or have Q Dev generate snippets for you and ask Q Dev to explain the code.
+Historically, this is what we would have suggested as a minimum to get started, but now as a result of GenAI capabilities, it has become even easier to get started with coding, with tools like Amazon Q Developer (Q Dev). Get yourself set up with Q Dev, then follow the steps above, using Q Dev to ask questions on what and how to integrate with AWS services or have Q Dev generate snippets for you and ask Q Dev to explain the code.
 
 Side Note: The type of code you start with - Frontend Applications, Backend Services, CLI scripting - is less important than the objective of the coding. The intention is to get hands-on and experiment. The detail of what you're doing and how you're doing it is up to you. For instance if my objective is to understand how to integrate with a new services, whether I do it in a backend service, a frontend application, or a CLI script, is not important. The understanding of the integration is the value.
 
