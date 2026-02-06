@@ -1,17 +1,17 @@
 ---
 enable: true
 title: "Latest Article"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+description: ""
 
 # pinned articles
 pinned:
-  - title: "GenAI... Are we there yet?"
-    image: "/images/banners/genai-there.png"
-    content: "The rise of Generative AI (GenAI) has ignited a frenzy of excitement and hype, captivating the tech world with its remarkable capabilities in generating human-like text, images, code, and more. As Solutions Architects, our pivotal role lies in navigating this landscape with a discerning eye, separating the transient hype from the enduring trends. By adopting a problem-centric mindset, staying abreast of technical advancements, and addressing concerns around sustainability, reliability, and ethics, we can harness the power of GenAI to create scalable, impactful solutions that outlive the hype cycles and contribute to sustainable progress across industries and societies."
+  - title: "To Code or Not to Code"
+    image: "/images/banners/toCodeOrNot.png"
+    content: "In an era of rapid technological evolution, the question 'To Code or Not to Code' for Solutions Architects (SAs) has never been more pertinent. In this article we delve into why coding skills are no longer just a nice-to-have, but a crucial asset for SAs in today's cloud-driven landscape. We explore how hands-on coding experience enhances an SA's ability to design more effective and innovative solutions, bridging the gap between high-level strategy and practical implementation. With guidance on getting started in coding, emphasizing the importance of an experimental mindset, continuous learning, and embracing coding as a tool for exploration, innovation, and credibility-building."
     button:
       enable: true
       label: "Read full article"
-      link: "/blog/genaiarewethereyet/"
+      link: "/blog/tocodeornot/"
       
 # don't create a separate page
 _build:
