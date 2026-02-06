@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{ partial "page-header" . }}
+
+  <section class="pt-8 pb-16">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-7 text-left">
+          <div class="content">{{ .Content }}</div>
+          {{ with .Params.second_section }}
+          <hr class="my-8" />
+          <div class="content">
+            {{ . | markdownify }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+       <div class="row justify-center">
+        <!-- articles -->
+        <div class="md:col-10 lg:col-7 text-left">
+          <h4>Selected cornerstone pieces</h4>
+            {{ $paginator:= .Paginate .RegularPages }}
+            {{ range $paginator.Pages }}
+              <div class="mt-4 px-10">
+                {{ partial "components/article-card" . }}
+              </div>
+            {{ end }}
+        </div>
+      </div>
+      <div class="row justify-center">
+        <!-- archive -->
+        <div class="md:col-10 lg:col-7 text-left">
+          <h4>Earlier Writing</h4>
+            <div class="content">
+              <div class="mt-4 px-10">
+                <p>Prior essays and explorations are archived on <a href="https://medium.com/@Aaron.Sempf" target="_blank">Medium</a></p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{ partial "page-footer" . }}
+{{ end }}

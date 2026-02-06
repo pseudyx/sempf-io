@@ -1,13 +1,21 @@
 {{ define "main" }}
-  <section class="section-sm">
+{{ partial "page-header" . }}
+
+  <section class="pt-8 pb-16">
     <div class="container">
       <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
-          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
+        <div class="md:col-10 lg:col-7 text-left">
           <div class="content">{{ .Content }}</div>
+          {{ with .Params.second_section }}
+          <hr class="my-8" />
+          <div class="content prose dark:prose-invert">
+            {{ . | markdownify }}
+          </div>
+          {{ end }}
         </div>
       </div>
     </div>
   </section>
+
+{{ partial "page-footer" . }}
 {{ end }}

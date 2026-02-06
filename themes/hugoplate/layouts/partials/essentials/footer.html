@@ -33,25 +33,25 @@
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
         <ul class="social-icons">
           {{ range site.Data.social.main }}
-            <li>
+            <li class="align-middle">
               <a
                 target="_blank"
                 aria-label="{{ .name }}"
                 rel="nofollow noopener"
                 href="{{ .link | safeURL }}">
-                <i class="{{ .icon }}"></i>
+                {{ if eq .name "substack" }}
+                  {{ $image := resources.Get .icon }}
+                  {{ $imageDark := resources.Get (replace .icon ".png" "-dark.png") }}
+                  <img src="{{ $image.RelPermalink }}" class="max-w-full max-h-full dark:hidden" />
+                  <img src="{{ $imageDark.RelPermalink }}" class="max-w-full max-h-full hidden dark:block" />
+                {{ else }}
+                  <i class="{{ .icon }}"></i>
+                {{ end }}
               </a>
             </li>
           {{ end }}
         </ul>
       </div>
-    </div>
-  </div>
-  <div class="border-border dark:border-darkmode-border border-t py-7">
-    <div class="text-light dark:text-darkmode-light container text-center">
-      <p>
-        {{ site.Params.copyright | markdownify }}
-      </p>
     </div>
   </div>
 </footer>

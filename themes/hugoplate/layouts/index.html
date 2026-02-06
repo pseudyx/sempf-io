@@ -1,16 +1,17 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-14">
+    <section class="section py-4">
       <div class="container">
         <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1">
+          <div class="lg:col-7 md:col-9 mb-4 text-center">
+            <h1 class="mb-4 text-h3 lg:text-h2">
               {{ .title | markdownify }}
             </h1>
             <p class="mb-8">
               {{ .content | markdownify }}
             </p>
+            <hr/>
             {{ with .button }}
               {{ if .enable }}
                 <a
@@ -38,49 +39,62 @@
 
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
-    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+    <section class="section py-4">
       <div class="container">
-        <div class="row items-center justify-between">
+        <div class="row items-center justify-center">
+          {{ if strings.ContainsAny .image `.png` }}
           <div
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
             {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
+          {{ end }}
           <div
             class="{{ if not (modBool $i 2) }}
               md:order-1
             {{ end }} md:col-7 lg:col-6">
+            {{ with .title }}
             <h2 class="mb-4">
               {{ .title | markdownify }}
             </h2>
-            <p class="mb-8 text-lg">
-              {{ .content | markdownify }}
-            </p>
-            <ul>
-              {{ range .bulletpoints }}
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  {{ . | markdownify }}
-                </li>
-              {{ end }}
-            </ul>
+            {{ end }}
+            <div class="mb-4 text-lg prose prose-p:mb-4 dark:prose-invert">
+              {{ .content | markdownify | safeHTML }}
+            </div>
             {{ with .button }}
               {{ if .enable }}
-                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
-                  {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
+               <div class="text-center mb-4">
+                  <a class="btn btn-primary mb-4" 
+                  href="{{ .link | absURL }}"
+                  {{ if strings.HasPrefix .link `http` }}
+                    target="_blank" rel="noopener"
+                  {{ end }}>
+                    {{ .label }}
+                    <i class="fa fa-arrow-right pl-2"></i>
+                  </a>
+                </div>
               {{ end }}
             {{ end }}
           </div>
         </div>
       </div>
+
+      {{ if ne (add $i 1) (len $.Params.features) }}
+      <div class="container">
+        <div class="row justify-center">
+          <div class="md:col-9 lg:col-7">
+            <hr />
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
     </section>
   {{ end }}
   <!-- /Features -->
 
-  <!-- Testimonials -->
+  {{/*  <!-- Testimonials -->
   {{ with site.GetPage "sections/pinned" }}
     {{ if .Params.enable }}
     <section class="section-sm bg-gradient">
@@ -126,5 +140,7 @@
     {{ end }}
   </section>
   {{ end }}
-  <!-- /Testimonials -->
+  <!-- /Testimonials -->  */}}
+
+{{ partial "page-footer" . }}
 {{ end }}

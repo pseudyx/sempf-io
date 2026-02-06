@@ -1,0 +1,41 @@
+<section class="section py-4">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-4 md:col-6 mb-4 text-center">
+        <hr/>
+        <nav class="mb-4 mt-4">
+          <ul class="flex justify-center gap-4 items-center">
+              {{ if not .IsHome }}
+              <li><a href="{{ site.Home.RelPermalink }}">Home</a></li>
+              <li class="text-gray-400">•</li>
+              {{ end }}
+              {{ with site.GetPage "/about" }}
+              {{ if not (eq .RelPermalink $.RelPermalink) }}
+                  <li><a href="{{ .RelPermalink }}">About</a></li>
+                  <li class="text-gray-400">•</li>
+              {{ end }}
+              {{ end }}
+              {{ with site.GetPage "/writing" }}
+              {{ if not (eq .RelPermalink $.RelPermalink) }}
+                  <li><a href="{{ .RelPermalink }}">Writing</a></li>
+                  <li class="text-gray-400">•</li>
+              {{ end }}
+              {{ end }}
+              {{ with site.GetPage "/contact" }}
+              {{ if not (eq .RelPermalink $.RelPermalink) }}
+                  <li><a href="{{ .RelPermalink }}">Contact</a></li>
+              {{ end }}
+              {{ end }}
+          </ul>
+        </nav>
+
+
+        <hr/>
+        <p class="my-8 italic text-gray-600 dark:text-gray-400">
+          Architecture is the control surface.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
